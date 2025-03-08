@@ -1,0 +1,23 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* ป้องกันการเลื่อนซ้ายขวา */
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+   /* ทำให้สูงเต็มจอจริงๆ */
+  width: 100%;
+  background-color: #b7f4fb; /* สีเดียวกับ Bootstrap primary */
+  color: white;
+  text-align: center;
+  padding-top: 56px; /* ปรับให้ไม่ทับ Navbar */
+}
+
+.content {
+  max-width: 800px;
+}
