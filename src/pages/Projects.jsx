@@ -13,7 +13,7 @@ const Projects = () => {
                         <div className="card-body">
                         <h5 className="card-title">Weather App</h5>
                         <p className="card-text">A wep application that provides real-time weather updates.</p>
-                        <a href="https://purimprachn.github.io/WeatherApp/" className="btn btn-primary">View Details</a>
+                        <a href="https://purimprachn.github.io/weather/" className="btn btn-primary">View Details</a>
                         </div>                
                     </div>
                 </div>
