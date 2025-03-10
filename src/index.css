@@ -12,7 +12,7 @@ html, body, #root {
   min-height: 100vh;
    /* ทำให้สูงเต็มจอจริงๆ */
   width: 100%;
-  background-color: #b7f4fb; /* สีเดียวกับ Bootstrap primary */
+
   color: white;
   text-align: center;
   padding-top: 56px; /* ปรับให้ไม่ทับ Navbar */
@@ -20,4 +20,19 @@ html, body, #root {
 
 .content {
   max-width: 800px;
+}
+.navbar-custom {
+  background-color: #1a1a1a !important; /* ทำให้สีดำเข้ม */
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom a {
+  color: #f8f9fa !important; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-custom a:hover {
+  color: #007bff !important;
 }

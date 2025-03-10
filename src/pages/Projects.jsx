@@ -1,4 +1,5 @@
 import React from 'react';
+import sun from "../assets/sun.png"; //ดึงรูปมาใช้ในรีแอค
 
 const Projects = () => {
     return (
@@ -9,7 +10,8 @@ const Projects = () => {
                 {/*Project 1*/}
                 <div className="col-md-4">
                     <div className="card shadow-lg">
-                    <img src="/sun.png" className="card-img-top" alt="Project 1" />
+                        
+                        <img src={sun} className="card-img-top" alt="Weather App" />
                         <div className="card-body">
                         <h5 className="card-title">Weather App</h5>
                         <p className="card-text">A wep application that provides real-time weather updates.</p>
